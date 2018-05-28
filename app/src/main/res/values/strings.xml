@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android Firebase Login</string>
+
+    <string name="emailEdit">Email</string>
+    <string name="passwordEdit">Password</string>
+    <string name="loginButton">Login</string>
+    <string name="signUp">Create Account</string>
+    <string name="loginText">Login</string>
+    <string name="signOutText">Sign Out</string>
+    <string name="SignUPText">Sign Up</string>
+    <string name="nameEdit">Name</string>
+    <string name="confirmPasswordEdit">Confirm Password</string>
+    <string name="forgotPasswordText">Forgot Password</string>
+    <string name="resetPasswordText">To reset password, enter your email, press the button and check your email for further instructions</string>
+    <string name="resetPasswordBtn">Reset Password</string>
+    <string name="returnToLoginTextView">Return to Login Screen</string>
+</resources>

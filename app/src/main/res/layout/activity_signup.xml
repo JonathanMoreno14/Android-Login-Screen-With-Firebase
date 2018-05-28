@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_color_selector"
+    tools:context="com.example.jonathanmoreno.loginscreen.SignupActivity">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="336dp"
+        android:layout_height="483dp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/signUpNameEditText"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="87dp"
+                android:ems="10"
+                android:hint="@string/nameEdit"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/signUpButton"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="72dp"
+                android:background="?attr/colorPrimaryDark"
+                android:elevation="5dp"
+                android:text="@string/SignUPText"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/signupTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:text="@string/signUp"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:typeface="monospace" />
+
+            <EditText
+                android:id="@+id/signUpEmailEditText"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="155dp"
+                android:ems="10"
+                android:hint="@string/emailEdit"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/signUpPasswordEditText"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:ems="10"
+                android:hint="@string/passwordEdit"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/signUpConfirmPasswordEditText"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="146dp"
+                android:ems="10"
+                android:hint="@string/confirmPasswordEdit"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/loginReturnTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="24dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="@string/returnToLoginTextView" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+</RelativeLayout>
